@@ -87,10 +87,10 @@ def main():
         # root_directory = os.getcwd()
         # pdf_docs = [f for f in os.listdir(root_directory) if f.endswith(".pdf")]
         
-        if pdf_docs:
-            st.write(f"Selected PDFs: {', '.join(pdf_docs)}")
-        else:
-            st.write("No PDFs found in the root directory.")
+        # if pdf_docs:
+        #     st.write(f"Selected PDFs: {', '.join(pdf_docs)}")
+        # else:
+        #     st.write("No PDFs found in the root directory.")
         if st.button("Process"):
             with st.spinner("Processing"):
                 #get the pdf text
