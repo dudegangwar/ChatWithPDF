@@ -81,11 +81,11 @@ def main():
 
     with st.sidebar:
         st.subheader("Your Documents")
-        # pdf_docs=st.file_uploader(
-            # "Upload The PDFs and click on :Process:", accept_multiple_files=True)
+        pdf_docs=st.file_uploader(
+            "Upload The PDFs and click on :Process:", accept_multiple_files=True)
         # List all PDF files in the root directory and process them
-        root_directory = os.getcwd()
-        pdf_docs = [f for f in os.listdir(root_directory) if f.endswith(".pdf")]
+        # root_directory = os.getcwd()
+        # pdf_docs = [f for f in os.listdir(root_directory) if f.endswith(".pdf")]
         
         if pdf_docs:
             st.write(f"Selected PDFs: {', '.join(pdf_docs)}")
