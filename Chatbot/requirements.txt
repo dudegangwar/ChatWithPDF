@@ -5,3 +5,4 @@ faiss-cpu
 huggingface_hub
 pypdf2
 langchain
+tiktoken
