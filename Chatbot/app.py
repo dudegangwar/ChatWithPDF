@@ -10,7 +10,7 @@ from langchain.chat_models import ChatOpenAI
 import os
 from htmlTemplates import css, bot_template, user_template
 
-os.environ['OPENAI_API_KEY'] = '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'
+os.environ['OPENAI_API_KEY'] = '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'
 # OPENAI_API_KEY = "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"
 
 def get_pdf_text(pdf_docs):
